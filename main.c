@@ -26,6 +26,10 @@ int restar(int a, int b) {
   return a - b;
 }
 
+int multiplicar(int a, int b) {
+  return a * b;
+}
+
 int main() {
   int resultado = sumar(1, 4);
   printf("El resultado es %i\n", resultado);
